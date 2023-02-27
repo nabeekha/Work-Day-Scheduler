@@ -37,6 +37,11 @@ The following animation demonstrates the application functionality:
 <!-- @TODO: create ticket to review/update image) -->
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
+Live Images can be seen in the following location 
+![Image of the website](./assets/workday-img1.png)
+
+Please see the live application at the following link: https://nabeekha.github.io/Work-Day-Scheduler/
+
 ## Grading Requirements
 
 > **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
