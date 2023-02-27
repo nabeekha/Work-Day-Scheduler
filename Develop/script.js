@@ -12,7 +12,6 @@ $(document).ready(function () {
   var today = dayjs();
   var currentTime = today.format('h:mm:ss')
   var currentHour = today.format('H')
-  
 
  function testFxn () {
  console.log(this);
@@ -23,7 +22,7 @@ $(document).ready(function () {
 
   }
 
-$('.saveBtn').on('click', testFxn)
+$(".saveBtn").on("click", testFxn)
 
 
   //localstorage data save
@@ -43,7 +42,7 @@ function hourUpdater() {
   //target time blocks and class description
   $(".description").each(function(){
     var blockHour = parseInt($(this).attr("id"));
-console.log(blockHour)
+console.log(blockHour, currentHour)
 console.log($(this).parent().attr("id"))
 
     if ( blockHour < currentHour) {
